@@ -10,7 +10,7 @@
         ]
     },
     "require": {
-        "guzzlehttp/guzzle": "^6.3 | 7.0.1",
+        "guzzlehttp/guzzle": "^6.3 | 7.2.5",
         "php": "^7.0 | 8.0 | 8.0.0RC2"
     },
     "scripts": {
