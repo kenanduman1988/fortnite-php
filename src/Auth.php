@@ -26,7 +26,7 @@ class Auth {
      * @param string $account_id    Unreal Engine account id
      * @param string $expires_in    OAuth2 token expiration time
      */
-    private function __construct($access_token, $in_app_id, $refresh_token, $account_id, $expires_in) {
+    public function __construct($access_token, $in_app_id, $refresh_token, $account_id, $expires_in) {
         $this->access_token = $access_token;
         $this->in_app_id = $in_app_id;
         $this->refresh_token = $refresh_token;
