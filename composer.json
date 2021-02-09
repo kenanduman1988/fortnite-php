@@ -11,7 +11,7 @@
     },
     "require": {
         "guzzlehttp/guzzle": "^7.0.1",
-        "php": "^7.0 | 8.0 | 8.0.0RC2"
+        "php": "^7.0 | 8.0 | 8.0.0RC2 | 8.0.2"
     },
     "scripts": {
         "test": "php tests/auth.php"
